@@ -197,17 +197,9 @@ Display the contact email address set in the configuration file.
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
+<p>Please be sure to complete this surveys after the workshop.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdg2wc8u29tcwEW2KoqQgX97PfHGws4PNa9Z5G_O1afLe24rg/viewform">Post-workshop Survey</a></p>
+
 
 <hr/>
 
